@@ -1,0 +1,14 @@
+[package]
+name = "rust_playground"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[features]
+my_feature = []
+
+[dependencies]
+syn = "1.0.93"
+quote = "1.0"
